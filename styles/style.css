@@ -60,12 +60,18 @@ body {
 
 /* featured flowers section styles */
 .featured-flowers-section {
-    margin: 100px;
+    margin: 100px 150px;
     text-align: center;
+    /* border: 1px solid rebeccapurple; */
 }
 
+/* .featured-flowers-container{
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 .featured-flowers-text {
-    max-width: 500px;
+    max-width: 600px;
     margin: auto;
 }
 
@@ -73,25 +79,29 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .featured-flowers-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .featured-flowers-img-container {
     display: flex;
-    justify-content: space-evenly;
+    /* gap: 24px; */
+    justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
-.featured-flowers-img-container img{
+.featured-flowers-img-container img {
     width: 200px;
 }
 
-.featured-flower-1 {
+.featured-flower-img-1 {
     width: 300px;
     height: 400px;
     background: rgba(167, 33, 98, 0.15);
@@ -99,8 +109,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 24px;
 }
-.featured-flower-2 {
+
+.featured-flower-img-2 {
     width: 300px;
     height: 400px;
     background: rgba(5, 151, 160, 0.15);
@@ -108,8 +120,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
-.featured-flower-3 {
+
+.featured-flower-img-3 {
     width: 300px;
     height: 400px;
     background: rgba(71, 125, 17, 0.15);
@@ -117,18 +131,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
+    margin-bottom: 24px;
 }
 
-
-.featured-img-captions {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.featured-img-captions p {
+.featured-flower-box p {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+
+/* services section styles */
+
+.services-section {
+    margin: 100px 150px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 60px 80px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.service p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
 }
