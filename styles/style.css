@@ -114,6 +114,10 @@ body {
 .featured-flowers-img-container img {
     width: 250px;
 }
+#bouquet{
+    width: 300px;
+    padding-top: 50px;
+}
 
 .featured-flower-img-1 {
     width: 390px;
