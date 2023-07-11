@@ -1,3 +1,4 @@
+/* Some common styles */
 * {
     margin: 0px;
     padding: 0px;
@@ -7,7 +8,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
 /* header banner styles */
+
 .banner-container {
     display: flex;
     justify-content: space-evenly;
@@ -33,6 +36,7 @@ body {
     width: 634px;
 }
 
+
 /* common button style for the whole website */
 
 .btn-primary {
@@ -49,6 +53,7 @@ body {
     background: rgba(229, 82, 114, 0.6);
     transition: 0.5s;
 }
+
 
 .banner-img {
     padding-right: 100px;
@@ -178,7 +183,9 @@ body {
     font-weight: 600;
 }
 
+
 /* sale section styles */
+
 .sale-section {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -215,6 +222,7 @@ body {
     margin-bottom: 32px;
 }
 
+
 /* instagram section */
 
 .instagram-section {
@@ -239,7 +247,10 @@ body {
     width: 250px;
 }
 
+
 /* order now section (BONUS) */
+
+/* order now form styles */
 
 .order-section {
     display: flex;
@@ -256,13 +267,13 @@ body {
     margin: auto;
 } */
 
-.order-form label{
+.order-form label {
     display: block;
     margin-bottom: 24px;
     text-align: left;
 }
 
-/* order table */
+/* order table styles */
 
 .price-list img {
     width: 80px;
@@ -273,13 +284,16 @@ table {
     /* padding: 10px; */
 }
 
-td, th {
+td,
+th {
     padding: 10px 25px;
 }
+
 /* implemented themed background color */
 td:nth-child(odd) {
     background-color: rgba(229, 84, 115, 0.10);
 }
+
 
 /* subscribe section styles */
 
@@ -358,5 +372,11 @@ footer {
 .footer-container .copyright-notice {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
+    font-weight: 400;
+}
+
+#my-name {
+    color: #E55473;
+    font-size: 14px;
     font-weight: 400;
 }
