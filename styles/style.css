@@ -206,3 +206,23 @@ body {
     font-weight: 400;
     margin-bottom: 32px;
 }
+
+/* instagram section */
+
+.instagram-section{
+    margin: 100px 150px;
+    text-align: center;
+    border: 1px solid seagreen;
+}
+
+
+.instagram-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 24px; */
+}
+
+.instagram-images img{
+    width: 250px;
+}
