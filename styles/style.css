@@ -239,6 +239,48 @@ body {
     width: 250px;
 }
 
+/* order now section (BONUS) */
+
+.order-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* .order-form{
+    width: 300px;
+    margin: auto;
+} */
+
+.order-form label{
+    display: block;
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+/* order table */
+
+.price-list img {
+    width: 80px;
+}
+
+table {
+    border-collapse: collapse;
+    /* padding: 10px; */
+}
+
+td, th {
+    padding: 10px 25px;
+}
+/* implemented themed background color */
+td:nth-child(odd) {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
 /* subscribe section styles */
 
 .subscribe-section {
@@ -263,7 +305,7 @@ body {
     align-items: center;
 }
 
-#subscribe-email {
+.subscribe-email {
     padding: 20px 25px;
     border-radius: 8px;
     background: #FFF;
@@ -271,7 +313,7 @@ body {
     border: 0;
 }
 
-#subscribe-email::placeholder {
+.subscribe-email::placeholder {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
