@@ -42,6 +42,12 @@ body {
     font-size: 20px;
     padding: 20px 43px;
     border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background: rgba(229, 82, 114, 0.6);
+    transition: 0.5s;
 }
 
 .banner-img {
@@ -209,20 +215,61 @@ body {
 
 /* instagram section */
 
-.instagram-section{
+.instagram-section {
     margin: 100px 150px;
     text-align: center;
     border: 1px solid seagreen;
 }
 
+.instagram-text {
+    max-width: 600px;
+    margin: auto;
+}
 
-.instagram-images{
+.instagram-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* gap: 24px; */
 }
 
-.instagram-images img{
+.instagram-images img {
     width: 250px;
+}
+
+/* subscribe section styles */
+
+.subscribe-section {
+    margin: 100px 150px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/banner/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subscribe-container{
+    padding: 100px;
+}
+
+.subscribe-form form{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#subscribe-email {
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 500px;
+}
+
+#subscribe-email::placeholder{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
 }
