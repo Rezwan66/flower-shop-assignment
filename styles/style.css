@@ -45,7 +45,7 @@ body {
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: rgba(229, 82, 114, 0.6);
     transition: 0.5s;
 }
@@ -62,13 +62,15 @@ body {
     margin-bottom: -3px;
 }
 
+
 /* featured flowers section styles */
+
 .featured-flowers-section {
     /* margin: 100px 150px; */
     width: 80%;
     margin: 100px auto;
     text-align: center;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid black; */
 }
 
 /* .featured-flowers-container{
@@ -218,7 +220,7 @@ body {
 .instagram-section {
     margin: 100px 150px;
     text-align: center;
-    border: 1px solid seagreen;
+    /* border: 1px solid black; */
 }
 
 .instagram-text {
@@ -251,11 +253,11 @@ body {
     background-size: cover;
 }
 
-.subscribe-container{
+.subscribe-container {
     padding: 100px;
 }
 
-.subscribe-form form{
+.subscribe-form form {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -266,10 +268,53 @@ body {
     border-radius: 8px;
     background: #FFF;
     width: 500px;
+    border: 0;
 }
 
-#subscribe-email::placeholder{
+#subscribe-email::placeholder {
     color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* footer styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background: #111010;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-container p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    width: 634px;
+    margin-bottom: 24px;
+}
+
+.footer-container p a {
+    color: #E55473;
+    text-decoration: none;
+}
+
+.footer-container .copyright-notice {
+    color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
 }
